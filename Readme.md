@@ -2,7 +2,8 @@
 
 [![CI – Tests React](https://github.com/omrmeh/crud_react_date/actions/workflows/ci.yml/badge.svg)](https://github.com/omrmeh/crud_react_date/actions/workflows/ci.yml)
 
-Cette application React permet de gérer facilement des événements horodatés : création, affichage, modification et suppression via une interface web intuitive. Idéale pour organiser des rendez-vous, rappels ou toute autre tâche liée à une date et une heure.
+Cette application React permet de gérer facilement des événements horodatés : création, affichage, modification et suppression via une interface web en React.
+Le résultat des tests automatisés est visible dans l'onglet Github Actions
 
 ---
 
@@ -53,9 +54,6 @@ Cette application React permet de gérer facilement des événements horodatés�
    ```bash
    docker run -d --name react-event-app -p 80:80 react-event-app
    ```
-4. Accéder à l’application sur `http://localhost`.
+4. Accéder à l’application sur `http://localhost` sur le port précisé dans la commande du run
 
----
-
-*README minimaliste : choisissez le mode adapté à vos besoins.*
 
